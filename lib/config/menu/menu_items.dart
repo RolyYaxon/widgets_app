@@ -1,28 +1,28 @@
 import 'package:flutter/material.dart';
 
-class MenuItems {
+class MenuItem {
   final String title;
   final String subtitle;
   final String link;
   final IconData icon;
 
-  const MenuItems(
+  const MenuItem(
       {required this.title,
       required this.subtitle,
       required this.link,
       required this.icon});
 }
 
-const appMenuItems = <MenuItems>[
+const appMenuItem = <MenuItem>[
 
-MenuItems(
+MenuItem(
   title: "Buttons", 
   subtitle: "Menu", 
   link: "/buttons", 
   icon: Icons.smart_button_outlined
   ),
 
-  MenuItems(
+  MenuItem(
   title: "Cards", 
   subtitle: "Cards Menu", 
   link: "/cards", 
