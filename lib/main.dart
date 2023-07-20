@@ -4,6 +4,7 @@ import 'package:widgets_app/config/theme/app_theme.dart';
 
 
 void main() {
+  
   runApp(const MainApp());
 }
 
@@ -13,9 +14,10 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp.router(
+      title: "I Love Sleep Token",
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
-      theme: AppTheme(selectedColor: 4).getTheme(),
+      theme: AppTheme(selectedColor: 3).getTheme(),
  
      
       

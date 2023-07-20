@@ -29,6 +29,34 @@ MenuItem(
   icon: Icons.credit_card
   ),
 
+    MenuItem(
+  title: "ProgressIndicator", 
+  subtitle: "Menu de progressbars", 
+  link: "/progress", 
+  icon: Icons.remove_from_queue
+  ),
+
+      MenuItem(
+  title: "DIalogs and Snackbars", 
+  subtitle: "Otro menu", 
+  link: "/snackbars", 
+  icon: Icons.snapchat
+  ),
+
+      MenuItem(
+  title: "Animated Thing", 
+  subtitle: "Many animations", 
+  link: "/animated", 
+  icon: Icons.gamepad_rounded
+  ),
+        MenuItem(
+  title: "Ui Controls", 
+  subtitle: "Controls", 
+  link: "/uicontrols", 
+  icon: Icons.cloud_upload_outlined
+  ),
+
+
 
 
 
