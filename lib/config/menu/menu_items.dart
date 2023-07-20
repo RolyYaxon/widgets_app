@@ -56,6 +56,14 @@ MenuItem(
   icon: Icons.cloud_upload_outlined
   ),
 
+          MenuItem(
+  title: "Tutorial", 
+  subtitle: "Tutoriales", 
+  link: "/tutorial", 
+  icon: Icons.architecture
+  ),
+
+
 
 
 

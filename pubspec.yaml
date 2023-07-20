@@ -26,3 +26,6 @@ flutter:
       fonts:
       - asset: assets/fonts/BarbieFont.ttf
   
+  assets:
+  - assets/images/
+  
