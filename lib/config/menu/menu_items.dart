@@ -15,6 +15,14 @@ class MenuItem {
 
 const appMenuItem = <MenuItem>[
 
+  MenuItem(
+  title: "Counter", 
+  subtitle: "CounterRiverpod", 
+  link: "/counter", 
+  icon: Icons.countertops
+  ),
+
+
 MenuItem(
   title: "Buttons", 
   subtitle: "Menu", 
@@ -61,6 +69,18 @@ MenuItem(
   subtitle: "Tutoriales", 
   link: "/tutorial", 
   icon: Icons.architecture
+  ),
+          MenuItem(
+  title: "Infinite Scroll", 
+  subtitle: "Scrool", 
+  link: "/infinite", 
+  icon: Icons.medical_information_outlined
+  ),
+          MenuItem(
+  title: "Change Theme", 
+  subtitle: "Select a color", 
+  link: "/themechanger", 
+  icon: Icons.palette_outlined
   ),
 
 
